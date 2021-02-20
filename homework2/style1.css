@@ -1,0 +1,21 @@
+.w1 {
+  color: rgb(59, 5, 109);
+}
+/* task1 */
+.abc {
+  background: url(https://99px.ru/sstorage/53/2012/09/tmb_49098_7463.jpg);
+  background-size: cover;
+}
+#qwer {
+  background: url(./forest.jpg);
+  background-size: cover;
+}
+div {
+  min-width: 100%;
+  min-height: 100%;
+  height: 400px;
+  width: 400px;
+  background: rgb(23, 9, 223);
+  background-size: cover;
+}
+/* task2 */

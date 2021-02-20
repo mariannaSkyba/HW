@@ -1,0 +1,46 @@
+.qwer {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  /* background: red; */
+  /* border: solid black; */
+  margin: 40px 90px;
+}
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 70px;
+  margin: auto;
+  background: red;
+}
+/* task5 */
+.red {
+  width: 252px;
+  height: 100px;
+  margin: 25px;
+  border: solid 5px;
+}
+.yellow {
+  width: 252px;
+  height: 100px;
+  margin: 25px;
+  border: solid 5px;
+}
+.green {
+  background: green;
+  width: 252px;
+  height: 100px;
+  margin: 25px;
+  border: solid 5px;
+}
+.re {
+  background: red;
+  width: 84px;
+  height: 100px;
+}
+.ye {
+  background: yellow;
+  width: 168px;
+  height: 100px;
+}
+/* task7 */
