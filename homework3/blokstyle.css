@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.asd {
+  color: #c5e3f6;
+  transition: 4s;
+}
+p:hover {
+  color: #fccde2;
+  transition: 4s;
+}
+.qw {
+  font-family: "Oswald", sans-serif;
+}
+.we {
+  font-family: "Poppins", sans-serif;
+}
+.er {
+  font-family: "Lobster", cursive;
+}
+.rt {
+  font-family: "Amatic SC", cursive;
+}
+.ty {
+  font-family: "Bree Serif", serif;
+}
+.yu {
+  font-family: test;
+}
+@font-face {
+  font-family: "test";
+  src: url(./Akrobat-SemiBold.ttf);
+}

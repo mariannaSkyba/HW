@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.qw1,
+.qw2,
+.qw3,
+.qw4,
+.qw5,
+.qw6 {
+  width: 85px;
+  height: 85px;
+}
+.as1,
+.as2,
+.as3,
+.as4,
+.as5,
+.as6 {
+  width: 85px;
+  height: 85px;
+}
+.zx1,
+.zx2,
+.zx3,
+.zx4,
+.zx5,
+.zx6 {
+  width: 85px;
+  height: 85px;
+}
+.cv1,
+.cv2,
+.cv3,
+.cv4,
+.cv5,
+.cv6 {
+  width: 85px;
+  height: 85px;
+}
+.fg1,
+.fg2,
+.fg3,
+.fg4,
+.fg5,
+.fg6 {
+  width: 85px;
+  height: 85px;
+}
+.qw1 {
+  background: #fde5d8;
+}
+.qw2 {
+  background: #f9bc9d;
+}
+.qw3 {
+  background: #f8936c;
+}
+.qw4 {
+  background: #f66c42;
+}
+.qw5 {
+  background: #d9301d;
+}
+.qw6 {
+  background: #a1130e;
+}
+.as1 {
+  background: #fdebe1;
+}
+.as2 {
+  background: #f9c5bf;
+}
+.as3 {
+  background: #f69fb6;
+}
+.as4 {
+  background: #f269a4;
+}
+.as5 {
+  background: #c01c8e;
+}
+.as6 {
+  background: #76007c;
+}
+.zx1 {
+  background: #eef8e8;
+}
+.zx2 {
+  background: #cae9bc;
+}
+.zx3 {
+  background: #a6d994;
+}
+.zx4 {
+  background: #7bc46c;
+}
+.zx5 {
+  background: #41a348;
+}
+.zx6 {
+  background: #196d20;
+}
+.cv1 {
+  background: #ffffc6;
+}
+.cv2 {
+  background: #cae9ae;
+}
+.cv3 {
+  background: #85cdba;
+}
+.cv4 {
+  background: #7bc46c;
+}
+.cv5 {
+  background: #41a348;
+}
+.cv6 {
+  background: #196d20;
+}
+.fg1 {
+  background: #f2f0f8;
+}
+.fg2 {
+  background: #dadaed;
+}
+.fg3 {
+  background: #bcbddf;
+}
+.fg4 {
+  background: #9d99cc;
+}
+.fg5 {
+  background: #736ab6;
+}
+.fg6 {
+  background: #512595;
+}
