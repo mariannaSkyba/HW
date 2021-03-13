@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 1920px;
+  height: 100vh;
+  background: #fff;
+}
+.img {
+  width: 718px;
+  height: 684px;
+  position: absolute;
+  float: right;
+  margin: 198px 115px 198px 1087px;
+}
+.line {
+  position: absolute;
+  width: 32px;
+  height: 2px;
+  background: #202336;
+  border-radius: 4px;
+  margin: 21px 507px 0 17px;
+}
+.text {
+  position: absolute;
+  width: 556px;
+  height: 520px;
+  background: #fff;
+  margin: 277px 1233px 283px 131px;
+}
+.tex1 {
+  width: 556px;
+  height: 160px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 80px;
+  color: #202336;
+}
+.tex2 {
+  font-family: "Inter", sans-serif;
+  color: #202336;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  width: 203px;
+  height: 36px;
+  margin: 46px 336px 0 17px;
+}
+.location {
+  width: 539px;
+  height: 52px;
+  border: 0.8px solid #afb0b9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin: 53px 0 0 17px;
+  font-family: "Inter", sans-serif;
+  color: #4a4c53;
+}
+.activity {
+  width: 539px;
+  height: 52px;
+  border: 0.8px solid #afb0b9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin: 32px 0 0 17px;
+  font-family: "Inter", sans-serif;
+  color: #4a4c53;
+}
+.button {
+  width: 180px;
+  height: 52px;
+  background: #fb8f1d;
+  border-radius: 8px;
+  border: #fb8f1d;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: #ffffff;
+  margin: 31px 359px 4px 17px;
+}
