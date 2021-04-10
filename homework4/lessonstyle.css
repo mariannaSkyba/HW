@@ -9,86 +9,28 @@
   height: 1080px;
   background-color: #fff;
 }
+.group {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  width: 321px;
+  height: 454px;
+  float: left;
+}
 .group1 {
-  background: #ffffff;
-  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
-  width: 321px;
-  height: 454px;
-  float: left;
-}
-.group2 {
-  background: #ffffff;
-  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
-  width: 321px;
-  height: 454px;
-  float: left;
-}
-.group3 {
-  background: #ffffff;
-  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
-  width: 321px;
-  height: 454px;
-  float: left;
+  position: relative;
 }
 .group4 {
-  background: #ffffff;
-  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
-  width: 321px;
-  height: 454px;
-  float: left;
-}
-.group5 {
-  background: #ffffff;
-  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
-  width: 321px;
-  height: 454px;
-  float: left;
+  position: relative;
 }
 .group6 {
-  background: #ffffff;
-  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
-  width: 321px;
-  height: 454px;
   clear: both;
-  float: left;
 }
 .group7 {
-  background: #ffffff;
-  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
-  width: 321px;
-  height: 454px;
-  float: left;
+  position: relative;
 }
 .group8 {
-  background: #ffffff;
-  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
-  width: 321px;
-  height: 454px;
-  float: left;
-}
-.group9 {
-  background: #ffffff;
-  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
-  width: 321px;
-  height: 454px;
-  float: left;
-}
-.group10 {
-  background: #ffffff;
-  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
-  width: 321px;
-  height: 454px;
-  float: left;
+  position: relative;
 }
 img {
   width: 321px;
@@ -118,29 +60,27 @@ img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-}
-.ball1,
-.ball4,
-.ball15 {
-  background: #fa5401;
-  float: right;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   color: #ffffff;
+  position: absolute;
+  font-family: Roboto;
+  margin: 8px 12px 192px 258px;
+}
+.ball1,
+.ball4,
+.ball5 {
+  background: #fa5401;
 }
 .ball2,
 .ball3 {
   background: #fa2e01;
   float: right;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  color: #ffffff;
+}
+.special {
+  text-align: center;
 }
 .Name {
-  width: 186px;
-  height: 26px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -148,8 +88,6 @@ img {
 }
 .Name2,
 .color {
-  width: 118px;
-  height: 21px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -157,19 +95,20 @@ img {
   margin: 13px 0 0 18px;
 }
 .price {
-  width: 80px;
-  height: 23px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   color: #fa2e01;
-  margin: 23px 0 41px 18px;
+  margin: 23px 0 0 18px;
+  float: left;
 }
-.price2 {
-  width: 80px;
-  height: 23px;
+.price2,
+.extra {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  margin: 23px 0 41px 18px;
+  margin: 23px 0 0 18px;
+}
+.line {
+  text-decoration: line-through;
 }

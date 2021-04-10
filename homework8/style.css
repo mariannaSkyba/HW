@@ -1,0 +1,525 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main styles start =========================================================== */
+html,
+body {
+  font-size: 16px;
+}
+
+:root {
+  --main-color: #000;
+  --secondary-color: #7d7987;
+  --accent-color: #fb8f1d;
+  --neutral-color: #fff;
+  --main-font: "Inter", sans-serif;
+  --secondary-font: "Mulish", sans-serif;
+  --headline-font: "Playfair Display", serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Main styles end =========================================================== */
+
+/* Utility classes start ============================================================================== */
+.container {
+  width: 1222px;
+  margin: 0 auto;
+}
+
+.container-small {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-headline {
+  font-family: var(--headline-font);
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.main-description {
+  font-family: var(--secondary-font);
+  font-weight: 300;
+  font-size: 17px;
+  color: var(--secondary-color);
+}
+
+/* Utility classes end ============================================================================ */
+
+/* Header start ==================================================================== */
+.header {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  z-index: 10000;
+}
+
+.header__button {
+  padding: 15px 46px;
+  border: 1px solid var(--accent-color);
+  border-radius: 8px;
+  font-family: var(--main-font);
+  font-weight: 500;
+  display: inline-block;
+}
+
+.header__login {
+  color: var(--accent-color);
+  margin-right: 28px;
+}
+
+.header__fill {
+  color: var(--neutral-color);
+  background: var(--accent-color);
+}
+
+.header__listItem {
+  margin-right: 35px;
+}
+
+.header__link {
+  font-family: var(--main-font);
+  font-weight: 400;
+  color: var(--secondary-color);
+  font-size: 1rem;
+}
+
+.header-burgerWrap {
+  width: 30px;
+  height: 22px;
+  flex-direction: column;
+  display: none;
+}
+
+.header-burgerWrap__line {
+  width: 100%;
+  height: 2px;
+  background: #000;
+}
+
+/* Header end ==================================================================== */
+
+/* way section start ==================================================================== */
+.img,
+.text {
+  width: 50%;
+}
+
+.picture {
+  width: 100%;
+}
+
+.text {
+  padding-left: 94px;
+}
+
+.way {
+  margin-top: 80px;
+  padding: 50px 0;
+  position: relative;
+}
+
+.way .header__button {
+  margin-top: 33px;
+}
+
+.bubble {
+  position: absolute;
+  bottom: 255px;
+  right: 135px;
+}
+
+/* way section end ==================================================================== */
+
+/* destination section start ==================================================================== */
+.destinations {
+  padding: 50px 0;
+}
+
+.view-all {
+  font-family: var(--main-font);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.underline {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+.destinations-itemsWrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 25px;
+  margin-top: 37px;
+}
+
+.item {
+  position: relative;
+}
+
+.item-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 6px 0 0;
+  padding: 11px 22px 0 0;
+  background: #fff;
+}
+
+.item-info__headline,
+.item-info__description {
+  font-family: var(--main-font);
+}
+
+.item-info__headline {
+  font-size: 17px;
+  font-weight: 600;
+  color: #042521;
+}
+
+.item-info__description {
+  font-size: 15px;
+  font-weight: 500;
+  color: #80918e;
+}
+
+.destinations-itemsWrap img {
+  border-radius: 10px;
+}
+
+/* destination section end ==================================================================== */
+
+/* guides section start ==================================================================== */
+.guides .text {
+  padding: 0 122px 0 0;
+}
+
+.guides .header__button {
+  margin-top: 39px;
+}
+
+.guides {
+  padding: 100px 0;
+}
+
+/* guides section end ==================================================================== */
+
+/* testimonials section end ==================================================================== */
+.testimonials {
+  padding: 100px 0;
+}
+
+.review {
+  margin-top: 145px;
+  margin-right: 169.16px;
+}
+
+.review-mark {
+  width: 189.02px;
+  height: 24px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 15.98px;
+  margin-bottom: 30px;
+}
+
+.review-info {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+.review-person {
+  font-family: var(--main-font);
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 17.5px;
+}
+
+.review-job {
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.img-man {
+  margin-top: 188px;
+}
+
+/* testimonials section end ==================================================================== */
+
+/* trending stories section start ==================================================================== */
+.trending {
+  padding: 100px 0;
+}
+
+/* .item-trending {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 233px;
+  right: 0;
+  background: #fff;
+} */
+
+.item-trending__headline {
+  font-family: var(--main-font);
+  font-size: 19px;
+  font-weight: 700;
+  color: #000;
+  padding-top: 11px;
+}
+
+.item-trending__description {
+  font-family: var(--main-font);
+  font-size: 15px;
+  font-weight: 400;
+  color: #7d7987;
+  padding-top: 13px;
+}
+
+.read-more {
+  font-family: var(--main-font);
+  font-size: 15px;
+  font-weight: 600;
+  color: #fb8f1d;
+  padding-top: 23px;
+}
+
+/* trending stories section end ==================================================================== */
+
+/* footer stories section start ==================================================================== */
+.footer {
+  padding: 100px 0 0 0;
+}
+
+.footer-infoWrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 108px;
+  margin-top: 78px;
+}
+
+.footer-headlines {
+  font-family: var(--secondary-font);
+  font-size: 19px;
+  font-weight: 700;
+  color: #000;
+}
+
+.footer-description {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 300;
+  color: #848484;
+}
+
+.footer-quotation {
+  padding: 26px 0 55px 0;
+}
+
+.footer-underline {
+  height: 1px;
+  width: 100%;
+  background-color: #c4c4c4;
+  margin-top: 89px;
+}
+
+.social {
+  margin-top: 30.4px;
+  margin-bottom: 32px;
+}
+
+.social-icons {
+  margin: 0 17.5px;
+}
+
+/* footer stories section end ==================================================================== */
+.footer-description li {
+  margin-bottom: 20px;
+}
+
+/* Media start ============================================================================================================= */
+@media screen and (max-width: 1360px) {
+  /* Utility classes start ======================================================================================================== */
+  .container {
+    width: 950px;
+  }
+
+  .container-small {
+    width: 850px;
+  }
+
+  /* Utility classes end ======================================================================================================== */
+
+  .destinations-itemsWrap {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* Utility classes start ======================================================================================================== */
+  .container {
+    width: 700px;
+  }
+
+  .container-small {
+    width: 650px;
+  }
+
+  /* Utility classes end ======================================================================================================== */
+
+  /* Header classes start ======================================================================================================== */
+  .header-burgerWrap {
+    display: flex;
+  }
+
+  .header-list,
+  .header__button {
+    display: none;
+  }
+
+  /* Header classes end ======================================================================================================== */
+  .text {
+    padding-left: 50px;
+  }
+
+  .destinations-itemsWrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .destinations-itemsWrap img {
+    width: 100%;
+  }
+
+  .testimonials .flex-container {
+    flex-wrap: wrap;
+  }
+
+  .testimonials-text {
+    order: 2;
+  }
+
+  .img-man {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img,
+  .text {
+    width: 100%;
+  }
+
+  .review {
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .review-mark {
+    margin: 0 auto 30px;
+  }
+
+  .guides .text {
+    padding: 0 50px 0 0;
+  }
+
+  .footer-infoWrap {
+    column-gap: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Utility classes start ======================================================================================================== */
+  .container {
+    width: 500px;
+  }
+
+  .container-small {
+    width: 450px;
+  }
+
+  /* Utility classes end ======================================================================================================== */
+}
+
+@media screen and (max-width: 639px) {
+  .container {
+    width: 350px;
+  }
+
+  .container-small {
+    width: 300px;
+  }
+  .flex-container {
+    flex-wrap: wrap;
+  }
+
+  .destinations-itemsWrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .text {
+    order: 2;
+  }
+  .footer-infoWrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .container {
+    width: 300px;
+  }
+
+  .container-small {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 250px;
+  }
+
+  .container-small {
+    width: 150px;
+  }
+
+  .footer-infoWrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
+
+/* Media end ============================================================================================================= */

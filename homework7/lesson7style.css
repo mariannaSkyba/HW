@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background: cadetblue;
+  border: 1px solid goldenrod;
+}
+@media all and (min-width: 400px) and (orientation: portrait) {
+  .box {
+    background: #000;
+  }
+}
